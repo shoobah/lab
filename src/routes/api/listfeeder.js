@@ -2,7 +2,7 @@ import { getRandomName } from '$lib/utilities/randomNameGenerator';
 
 export async function get() {
 	let list = [];
-	for (let index = 0; index < 10000; index++) {
+	for (let index = 0; index < 100000; index++) {
 		list.push({
 			id: index,
 			selected: false,
